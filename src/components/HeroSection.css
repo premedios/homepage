@@ -1,0 +1,9 @@
+.jumbotron {
+  background-image: url(https://images.pexels.com/photos/270694/pexels-photo-270694.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+  background-color: rgba(0, 0, 0, 0.60);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  padding: 70px 0;
+}
