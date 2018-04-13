@@ -1,0 +1,26 @@
+{
+  "name": "@homepage/theme",
+  "version": "1.0.0",
+  "description": "Homepage Theme",
+  "main": "build/styles.css",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Pedro Remedios",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free-brands": "^5.0.0",
+    "@fortawesome/fontawesome-free-regular": "^5.0.0",
+    "@fortawesome/fontawesome-free-solid": "^5.0.0",
+    "bootstrap": "^4.0.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.2.1"
+  }
+}

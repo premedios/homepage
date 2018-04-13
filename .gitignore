@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/src/homepage-theme/node_modules
 
 # testing
 /coverage

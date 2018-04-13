@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 
 import Navigation from './components/Navigation';
 import HeroSection from './components/HeroSection';
+import SectionHeader from './components/SectionHeader';
+import ServicesSection from './components/ServicesSection';
+import PortfolioSection from './components/PortfolioSection';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -9,6 +13,11 @@ class App extends Component {
       <div>
         <Navigation />
         <HeroSection />
+        <SectionHeader sectionId="services-section-head" title="SERVICES" description="Below are the services I provide. I cater to all budgets and needs. My goal is to make the web and mobile ecosystem more useful and visually appealing." />
+        <ServicesSection />
+        <SectionHeader sectionId="portfolio-section-head" title="PORTFOLIO" description="Below you will find some of the projects I was involved in. I never undertake a project I don't believe in. In every project listed, I took the time to make sure that the user experience is at it's best. I grow with each project." />
+        <PortfolioSection />
+        <Footer />
       </div>
     );
   }
