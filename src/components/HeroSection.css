@@ -1,5 +1,5 @@
-.jumbotron {
-  background-image: url(https://images.pexels.com/photos/270694/pexels-photo-270694.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+.hero {
+  background-image: url('../cover.jpg');
   background-color: rgba(0, 0, 0, 0.60);
   background-blend-mode: multiply;
   background-position: center;

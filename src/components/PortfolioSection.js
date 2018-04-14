@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Card, CardBody } from 'reactstrap';
 
+import DownloadBadge from '../Download_on_the_App_Store_Badge.svg';
+import ETAScreenshot from '../ETA.svg';
+
 export default class PortfolioSection extends Component {
   render() {
     return (
@@ -14,9 +17,9 @@ export default class PortfolioSection extends Component {
               <p className="lead mb-5">The purpose of this app was to facilitate the SMS service of the bus timetables of the Portuguese public transport company Carris.</p>
               <h5>Technologies Used:</h5>
               <p className="lead mb-4">Xcode, iOS, Swift 4, Core Data, UIKit</p>
-              <img src="assets/Download_on_the_App_Store_Badge.svg" alt="Download on the Apple Store"/>
+              <img src={DownloadBadge} alt="Download on the Apple Store"/>
             </CardBody>
-            <img className="d-block" src="assets/ETA.svg" width="200" height="402" alt="E.T.A. screenshot"/>
+            <img className="d-block" src={ETAScreenshot} width="200" height="402" alt="E.T.A. screenshot"/>
           </Card>
         </div>
       </section>
