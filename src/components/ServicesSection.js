@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import faMobileAlt from '@fortawesome/fontawesome-free-solid/faMobileAlt';
-import faGlobe from '@fortawesome/fontawesome-free-solid/faGlobe';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMobileAlt } from '@fortawesome/free-solid-svg-icons';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { CardDeck, Card, CardBody, CardTitle, CardText } from 'reactstrap'; 
 
 export default class ServicesSection extends Component {

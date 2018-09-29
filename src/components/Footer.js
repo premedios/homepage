@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import faEnvelope from '@fortawesome/fontawesome-free-solid/faEnvelope';
-import faMapMarker from '@fortawesome/fontawesome-free-solid/faMapMarker';
-import faPhone from '@fortawesome/fontawesome-free-solid/faPhone';
-import faFacebookSquare from '@fortawesome/fontawesome-free-brands/faFacebookSquare';
-import faGithub from '@fortawesome/fontawesome-free-brands/faGithub';
-import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faMapMarker, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faFacebookSquare, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 export default class Footer extends Component {
   render() {
