@@ -9,11 +9,11 @@ export default class Footer extends Component {
       <footer id="footer-section" className="py-4 bg-dark text-white">
         <div className="container">
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-6">
               <h5 className="mb-4 font-weight-light">About Me</h5>
               <p className="font-weight-light about-text">iOS and Web developer with over 20 years professional development experience. Hobbies include: AI, Car Tuning, World of Warcraft, Bodybuilding and Cinema.</p>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-6">
               <h5 className="mb-4 font-weight-light">Contact Information</h5>
               <div className="row mb-3">
                 <div className="col-1"><FontAwesomeIcon icon={faEnvelope} fixedWidth /></div>
@@ -46,7 +46,7 @@ export default class Footer extends Component {
                 </li>
               </ul>
             </div>
-            <div className="col-md-4">
+            {/* <div className="col-md-4">
               <h5 className="mb-4 font-weight-light">Drop me a message:</h5>
               <form>
                 <div className="row">
@@ -70,7 +70,7 @@ export default class Footer extends Component {
 
                 <input type="button" value="Submit" className="btn btn-primary btn-block" />
               </form>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>
