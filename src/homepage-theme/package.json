@@ -17,7 +17,8 @@
     "gulp-concat": "^2.6.1",
     "gulp-minify-css": "^1.2.4",
     "jquery": "^3.3.1",
-    "popper.js": "^1.14.1"
+    "popper.js": "^1.14.1",
+    "lodash": ">=4.17.11"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
