@@ -19,7 +19,6 @@
     "@fortawesome/free-regular-svg-icons": "^5.7.1",
     "@fortawesome/free-solid-svg-icons": "^5.7.1",
     "@fortawesome/react-fontawesome": "^0.1.4",
-    "ajv": "^6.8.1",
     "babel-preset-flow": "^6.23.0",
     "flow-bin": "^0.69.0",
     "react": "^16.8.1",
@@ -49,5 +48,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "ajv": "^6.10.0",
+    "typescript": "^3.5.2"
   }
 }
